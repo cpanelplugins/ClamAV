@@ -16,3 +16,13 @@ To begin a scan on your account, perform the following steps:
 - Data — This displays the amount of data that the system has scanned. It also displays the total amount of data to scan.
 - Scanner Progress — This displays the scan’s progress.
 - Infected Files — This lists files in which the scan detects malicious software. The system may require several minutes to complete the scan. After the system completes the scan, it will return you to the Virus Scanner interface.
+
+
+# Install ClamAV Scanner
+
+To install or uninstall ClamAV, navigate to WHM’s Manage Plugins interface (WHM >> Home >> cPanel >> Manage Plugins), and then click "Install ClamAV for cPanel".
+
+We strongly recommend that at least three gigabytes (GB) of RAM exist on your server if you install ClamAV. Your server may experience performance issues if it lacks enough RAM and you use ClamAV.
+ 
+
+Please see our documentation for more information on ClamAV: https://docs.cpanel.net/whm/plugins/configure-clamav-scanner/?_ga=2.50619114.2129266657.1656922702-1438489714.1600170256
